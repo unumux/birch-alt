@@ -1,0 +1,11 @@
+// remove extra spacing around image for column that only has an image
+.birch-grid-img-only-col{ 
+  padding-bottom: 0 !important;
+}
+
+// mobile: add space between left image and this which becomes stacked under it
+@media only screen and (max-width: #{$global-breakpoint}) {
+    .birch-grid-small-padding-top{
+        padding-top: 16px !important;
+    }
+}

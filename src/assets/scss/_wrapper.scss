@@ -1,0 +1,27 @@
+.birch-wrapper-padding .wrapper-inner {
+    padding-left: 53px;
+    padding-right: 53px;
+}
+.birch-wrapper-padding-2column-first .wrapper-inner {
+    padding-left: 50px;
+    padding-right: 25px;
+}
+.birch-wrapper-padding-2column-second .wrapper-inner {
+    padding-left: 25px;
+    padding-right: 50px;
+}
+
+@media only screen and (max-width:616px) {
+    .birch-wrapper-padding .wrapper-inner {
+        padding-left: 20px !important;  // 20px instead of 0 for Android (because the container 100% vs 95% doesn't work perfectly)
+        padding-right: 20px !important;
+    }
+    .birch-wrapper-padding-2column-first .wrapper-inner {
+        padding-left: 20px !important;  // 20px instead of 0 for Android (because the container 100% vs 95% doesn't work perfectly)
+        padding-right: 20px !important;
+    }
+    .birch-wrapper-padding-2column-second .wrapper-inner {
+        padding-left: 20px !important;  // 20px instead of 0 for Android (because the container 100% vs 95% doesn't work perfectly)
+        padding-right: 20px !important;
+    }
+}

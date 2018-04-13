@@ -1,0 +1,29 @@
+.birch-headerbar-wrapper .wrapper-inner {
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+@media only screen and (max-width:616px) {
+    .birch-headerbar-wrapper .wrapper-inner {
+        padding-left: 20px !important;  // 10px instead of 0 for Android (because the container 100% vs 95% doesn't work perfectly)
+        padding-right: 20px !important;
+    }
+}
+.birch-headerbar-column{
+    padding-bottom: 0 !important;
+    line-height: 1;
+}
+.birch-headerbar-logo{
+    max-width: 148px !important;
+    color: white;
+    display: inline !important;
+}
+
+// the following are to align the bottom of the cta with the logo
+th.birch-headerbar-column.small-6.large-6.columns.first > table > tbody > tr > th{
+    line-height: 1;
+}
+.birch-headerbar-p, .birch-headerbar-cta { 
+    line-height: 1 !important;
+}
+

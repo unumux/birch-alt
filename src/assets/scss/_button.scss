@@ -1,0 +1,213 @@
+// Customized buttons
+
+
+// ####################
+// ### Unum buttons ###
+  
+// Unum normal button for use on light backgrounds (1 of 2)
+table.button.birch-button--unum-blue {
+  table {
+    td {
+      background: $unum-sky;
+      border: 0px solid $unum-sky;
+    }
+
+    a {
+      border: 0px solid $unum-sky;
+      font-weight: 400;
+    }
+  }
+  margin:0;
+}
+// Unum normal button for use on light backgrounds (2 of 2)
+table.button.birch-button--unum-blue:hover {
+  table {
+    td {
+      background: darken($unum-sky, 10%);
+    }
+
+    a {
+      border: 0px solid darken($unum-sky, 10%);
+    }
+  }
+}
+table.button.birch-button--unum-blue table td {
+    border-radius: 3px;
+}
+  
+// Unum light button for use on dark backgrounds (1 of 2)
+table.button.birch-button--unum-gold {
+  table {
+    td {
+      background: $unum-gold;
+      border: 0px solid $unum-gold;
+    }
+
+    a {
+      border: 0px solid $unum-gold;
+      font-weight: normal;
+      color: $unum-blue;
+    }
+  }
+}
+// Unum light button for use on dark backgrounds (2 of 2)
+table.button.birch-button--unum-gold:hover {
+  table {
+    td {
+      background: darken($unum-gold, 10%);
+    }
+
+    a {
+      border: 0px solid darken($unum-gold, 10%);
+      color: $unum-blue;
+    }
+  }
+}
+table.button.birch-button--unum-gold table td {
+    border-radius: 3px;
+}
+// Unum white button for use in ??? (1 of 2)
+table.button.birch-button--unum-white {
+  table {
+    td {
+      background: white;
+      border: 0px solid white;
+    }
+
+    a {
+      color: $unum-blue;
+      border: 0px solid $unum-blue;
+      font-weight: normal;
+    }
+  }
+}
+// Unum white button for use in ??? (2 of 2)
+table.button.birch-button--unum-white:hover {
+  table {
+    td {
+      background: darken(white, 10%);
+    }
+
+    a {
+      color: darken($unum-blue, 10%);
+      border: 0px solid $unum-blue;
+    }
+  }
+}
+table.button.birch-button--unum-white table td {
+    border-radius: 3px;
+}
+
+
+// ########################
+// ### Colonial buttons ###
+
+// Colonial normal button for use on light backgrounds (1 of 2)
+table.button.birch-button--colonial-mint {
+  table {
+    td {
+      background: $colonial-mint;
+      border: 0px solid $colonial-mint;
+    }
+
+    a {
+      border: 0px solid $colonial-mint;
+      font-weight: normal;
+    }
+  }
+}
+// Colonial normal button for use on light backgrounds (1 of 2)
+table.button.birch-button--colonial-mint:hover {
+  table {
+    td {
+      background: darken($colonial-mint, 10%);
+    }
+
+    a {
+      border: 0px solid darken($colonial-mint, 10%);
+    }
+  }
+}
+table.button.birch-button--colonial-mint table td {
+    border-radius: 3px;
+}
+
+// Colonial light button for use on dark backgrounds (1 of 2)
+table.button.birch-button--colonial-light {
+  table {
+    td {
+      background: $colonial-Tangerine;
+      border: 0px solid $colonial-Tangerine;
+    }
+
+    a {
+      border: 0px solid $colonial-Tangerine;
+      font-weight: normal;
+      color: $colonial-dark-grey;
+    }
+  }
+}
+// Colonial light button for use on dark backgrounds (2 of 2)
+table.button.birch-button--colonial-light:hover {
+  table {
+    td {
+      background: darken($colonial-Tangerine, 10%);
+    }
+
+    a {
+      border: 0px solid darken($colonial-Tangerine, 10%);
+      color: $colonial-dark-grey;
+    }
+  }
+}
+table.button.birch-button--colonial-light table td {
+    border-radius: 3px;
+}
+// Colonial white button for use in ??? (1 of 2)
+table.button.birch-button--colonial-white {
+  table {
+    td {
+      background: white;
+      border: 0px solid white;
+    }
+
+    a {
+      color: $colonial-steel-blue;
+      border: 0px solid $colonial-steel-blue;
+      font-weight: normal;
+    }
+  }
+}
+// Colonial white button for use in ??? (2 of 2)
+table.button.birch-button--colonial-white:hover {
+  table {
+    td {
+      background: darken(white, 10%);
+    }
+
+    a {
+      color: darken($colonial-steel-blue, 10%);
+      border: 0px solid $colonial-steel-blue;
+    }
+  }
+}
+table.button.birch-button--colonial-white table td {
+    border-radius: 3px;
+}
+  
+
+
+
+
+
+// ###################################
+// ### Utility classes for buttons ###
+
+// utils
+.birch-button-no-margin{
+    margin: 0 !important;
+    Margin: 0 !important;
+}
+.birch-button-inline{
+    display: inline-block;
+}

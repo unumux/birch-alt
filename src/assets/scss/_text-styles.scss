@@ -1,0 +1,71 @@
+// testing bg
+//body > table{background-color:darkgrey !important;}
+
+// h1
+.birch-text-styles-h1{
+    font-size: 24px; 
+    line-height: normal; 
+    //color: $unum-blue; 
+    font-family: Arial; 
+    font-style: normal; 
+    font-weight: 400;
+}
+
+// h2
+.birch-text-styles-h2{
+    font-size: 20px; 
+    line-height: 21px; 
+    //color: $colonial-dark-grey; 
+    font-family: Arial; 
+    font-style: normal; 
+    font-weight: bold;
+}
+
+// p
+.birch-text-styles-p{
+    font-size: 17px;
+    line-height: 22px;
+    //color: $colonial-dark-grey;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 400;
+}
+.birch-text-styles-p--legal{
+    @extend .birch-text-styles-p;
+    font-size: 11px;
+    line-height: 14px;
+    font-weight: 400;
+}
+.birch-text-styles-p--products{
+    @extend .birch-text-styles-p;
+    font-size: 12px;
+    line-height: normal;
+    font-weight: 400;
+}
+
+// a
+.birch-text-styles-link{
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    //color: $unum-blue !important;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: underline;
+}
+.birch-text-styles-link--contact{
+    @extend .birch-text-styles-link;
+    font-size: 14px;
+    line-height: normal;
+}
+.birch-text-styles-link--legal{
+    @extend .birch-text-styles-link;
+    font-size: 11px;
+    line-height: 14px;
+}
+
+// li
+.birch-text-styles-li{
+    @extend .birch-text-styles-p;
+}
