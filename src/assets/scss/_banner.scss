@@ -1,0 +1,9 @@
+
+
+
+// mobile: stretch to full width for mobile
+@media only screen and (max-width: #{$global-breakpoint}) {
+    .birch-wrapper-padding-2column-banner-image{
+        width:100% !important;
+    }
+}
