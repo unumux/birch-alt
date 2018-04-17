@@ -89,3 +89,22 @@
     Margin-bottom: 0 !important;
     margin-bottom: 0 !important;
 }
+
+center{
+    min-width: initial !important;
+}
+.birch-util-full-width{
+    width: 100%;
+}
+
+
+// @media only screen and (max-width: 616px) {
+@media only screen and (min-width: 617px) {    
+    .birch-small-only {
+        display: none !important;
+        overflow: hidden !important;
+        max-height: 0 !important;
+        font-size: 0 !important;
+        line-height: 0 !important;
+    }
+}

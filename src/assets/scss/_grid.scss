@@ -2,10 +2,27 @@
 .birch-grid-img-only-column{ 
   padding-bottom: 0 !important;
 }
+.birch-grid-column1{
+    padding: 0 !important;
+}
+.birch-grid-column2{
+    padding: 0 !important;
+}
+.birch-grid-column2-left-half-padding{
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0 !important;
+    padding-left: 25px;
+}
 
 // mobile: add space between left image and this which becomes stacked under it
+//@media only screen and (max-width:616px) {
 @media only screen and (max-width: #{$global-breakpoint}) {
     .birch-grid-small-padding-top{
         padding-top: 16px !important;
+    }
+    th.birch-grid-column2-left-half-padding{
+        padding-top: 50px !important;
+        padding-left: 0 !important;
     }
 }
