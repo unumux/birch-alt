@@ -7,6 +7,9 @@ The process goes something like this:
 - install and activate Foundation for Emails so it will watch and compile your inky markup into email html that works much more consistently.
 - build an email (or component) in the src/pages folder, it will compile into the dist/ folder
 - the css classes that you use to supplement Inky are in src/assets/scss
+- the individual components are numbered in the src/pages folder
+- two themed pages have all of the components included (base-html-unum and base-html-colonial)
+- using the complied html from an individual component is not sufficient for an email.  The complier only includes the parts that are needed for that component.  An email that uses a combination of components needs styles that exist in the base-html.  
 
 # Foundation for Emails Template
 
