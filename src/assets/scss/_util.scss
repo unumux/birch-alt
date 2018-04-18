@@ -7,8 +7,8 @@
 // .u-bg-unum-sand{
 //     background-color: $unum-sand
 // }
-// .u-bg-unum-sand2{
-//     background-color: $unum-sand2
+// .u-bg-unum-sand-dark{
+//     background-color: $unum-sand-dark
 // }
 // .u-bg-colonial-steel-blue{
 //     background-color: $colonial-steel-blue;
@@ -47,11 +47,11 @@
 .birch-util-background-color-unum-sand{
     background-color: $unum-sand;
 }
-.birch-util-color-unum-sand2{
-    color: $unum-sand2;
+.birch-util-color-unum-sand-dark{
+    color: $unum-sand-dark;
 }
-.birch-util-background-color-unum-sand2{
-    background-color: $unum-sand2;
+.birch-util-background-color-unum-sand-dark{
+    background-color: $unum-sand-dark;
 }
 
 // colonial colors
@@ -67,6 +67,12 @@
 }
 .birch-util-background-color-colonial-steel-blue{
     background-color: $colonial-steel-blue;
+}
+.birch-util-color-colonial-steel-blue-light{
+    color: $colonial-steel-blue-light;
+}
+.birch-util-background-color-colonial-steel-blue-light{
+    background-color: $colonial-steel-blue-light;
 }
 
 // misc colors
