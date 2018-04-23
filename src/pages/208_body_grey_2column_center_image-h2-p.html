@@ -4,17 +4,16 @@ subject: BODY/GREY/2-COLUMN/CENTER/IMAGE-H2-P
 ---
 
 <container>
-    <wrapper class="birch-wrapper-padding birch-util-background-color-grey">
+    <wrapper class="birch-wrapper-padding-full birch-util-background-color-grey">
         <row class="collapse">
             <columns class="birch-grid-img-only-column">
-                <center>
-                    <img width="200" height="200" src="http://via.placeholder.com/200x200" alt="ALT tags are important" />
-                </center>
+                <img class="birch-util-mobile-center" width="200" height="200" src="http://via.placeholder.com/200x200" alt="ALT tags are important" />
             </columns>
 
-            <columns valign="middle">
+            <columns valign="middle" style="padding-bottom:0!important">
                 <h2 class="text-center birch-text-styles-h2 birch-grid-small-padding-top">Mauris non tempor quam, et lacinia sapien:</h2>
                 <p class="text-center">Mauris non tempor quam, et lacinia sapien. Mauris accumsan eros eget lobero posuere vulputate.</p>
+                <center><!-- to match width of components with a center element --></center>
             </columns>
         </row>
     </wrapper>

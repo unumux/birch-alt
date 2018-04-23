@@ -102,6 +102,9 @@ center{
 .birch-util-full-width{
     width: 100%;
 }
+// .birch-util-large-only-padding-bottom-50{
+//     padding-bottom: 50px !important;
+// }
 
 
 // @media only screen and (max-width: 616px) {
@@ -113,4 +116,22 @@ center{
         font-size: 0 !important;
         line-height: 0 !important;
     }
+}
+
+@media only screen and (max-width: 616px) {
+    .birch-util-mobile-center{
+	    Margin: 0 auto; clear: both; float: none; margin: 0 auto; text-align: center;		
+    }
+    .birch-util-mobile-padding-top-50{
+        padding-top: 50px !important;
+    }
+    .birch-util-mobile-padding-bottom-50{
+        padding-bottom: 50px !important;
+    }
+    // .birch-util-mobile-no-padding-top{
+    //     padding-top: 0 !important;
+    // }
+    // .birch-util-mobile-no-padding-bottom{
+    //     padding-bottom: 0 !important;
+    // }
 }

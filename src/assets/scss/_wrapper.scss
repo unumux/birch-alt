@@ -17,6 +17,10 @@
 .birch-wrapper-padding-full .wrapper-inner{
     padding: 50px;
 }
+.birch-wrapper-padding-top-bottom .wrapper-inner{
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+}
 
 @media only screen and (max-width:616px) {
     .birch-wrapper-padding .wrapper-inner {
@@ -34,5 +38,11 @@
     .birch-wrapper-padding-2column-banner-column2 .wrapper-inner {
         padding-left: 20px;
         padding-right: 20px;
+    }
+    .birch-wrapper-mobile-no-padding-top td.wrapper-inner{
+        padding-top: 0 !important;
+    }
+    table.birch-wrapper-mobile-no-padding-bottom td.wrapper-inner{
+        padding-bottom: 0 !important;
     }
 }

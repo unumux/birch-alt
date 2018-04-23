@@ -177,7 +177,7 @@ table.button.birch-button--colonial-white {
 
     a {
       color: $colonial-steel-blue;
-      border: 0px solid $colonial-steel-blue;
+      border: 0px solid white;
       font-weight: normal;
     }
   }
@@ -192,7 +192,7 @@ table.button.birch-button--colonial-white:hover {
 
     a {
       color: darken($colonial-steel-blue, 10%);
-      border: 0px solid $colonial-steel-blue;
+      border: 0px solid white;
     }
   }
 }
