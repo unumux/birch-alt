@@ -1,46 +1,16 @@
-// .u-bg-unum-blue{
-//     background-color: $unum-blue;
-// }
-// .u-text-unum-blue{
-//     color: $unum-blue;
-// }
-// .u-bg-unum-sand{
-//     background-color: $unum-sand
-// }
-// .u-bg-unum-sand-dark{
-//     background-color: $unum-sand-dark
-// }
-// .u-bg-colonial-steel-blue{
-//     background-color: $colonial-steel-blue;
-// }
-// .u-text-white{
-//     color: white;
-// }
-// .u-bg-grey{
-//     background-color: #f7f7f7;
-// }
-// .link-white{
-//     color: white;
-// }
-// .u-no-margin{
-//     Margin: 0 !important;
-//     margin: 0 !important;
-// }
-// .u-no-margin-bottom{
-//     Margin-bottom: 0 !important;
-//     margin-bottom: 0 !important;
-// }
-
-// birch prefixed
-
 // unum colors
+.birch-util-color-unum-dark-grey{
+    color: $unum-dark-grey;
+}
+.birch-util-background-color-unum-dark-grey{
+    background-color: $unum-dark-grey;
+}
 .birch-util-color-unum-blue{
     color: $unum-blue;
 }
 .birch-util-background-color-unum-blue{
     background-color: $unum-blue;
 }
-
 .birch-util-color-unum-sand{
     color: $unum-sand;
 }
@@ -95,17 +65,12 @@
     Margin-bottom: 0 !important;
     margin-bottom: 0 !important;
 }
-
 center{
     min-width: initial !important;
 }
 .birch-util-full-width{
     width: 100%;
 }
-// .birch-util-large-only-padding-bottom-50{
-//     padding-bottom: 50px !important;
-// }
-
 
 // @media only screen and (max-width: 616px) {
 @media only screen and (min-width: 617px) {    
@@ -128,10 +93,4 @@ center{
     .birch-util-mobile-padding-bottom-50{
         padding-bottom: 50px !important;
     }
-    // .birch-util-mobile-no-padding-top{
-    //     padding-top: 0 !important;
-    // }
-    // .birch-util-mobile-no-padding-bottom{
-    //     padding-bottom: 0 !important;
-    // }
 }

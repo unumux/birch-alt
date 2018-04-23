@@ -139,12 +139,12 @@ table.button.birch-button--colonial-mint table td {
 table.button.birch-button--colonial-light {
   table {
     td {
-      background: $colonial-Tangerine;
-      border: 0px solid $colonial-Tangerine;
+      background: $colonial-tangerine;
+      border: 0px solid $colonial-tangerine;
     }
 
     a {
-      border: 0px solid $colonial-Tangerine;
+      border: 0px solid $colonial-tangerine;
       font-weight: normal;
       color: $colonial-dark-grey;
     }
@@ -155,11 +155,11 @@ table.button.birch-button--colonial-light {
 table.button.birch-button--colonial-light:hover {
   table {
     td {
-      background: darken($colonial-Tangerine, 10%);
+      background: darken($colonial-tangerine, 10%);
     }
 
     a {
-      border: 0px solid darken($colonial-Tangerine, 10%);
+      border: 0px solid darken($colonial-tangerine, 10%);
       color: $colonial-dark-grey;
     }
   }

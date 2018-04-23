@@ -39,19 +39,19 @@ $global-rounded: 500px;
 $global-breakpoint: $global-width + $global-gutter;
 
 // colonial styles
-$colonial-mint: #1A8573;
-$colonial-Tangerine: #F1C44F;
 $colonial-dark-grey: #2E2E2E;
+$colonial-mint: #1A8573;
+$colonial-tangerine: #F1C44F;
 $colonial-sand: #E0DDCE;
 $colonial-steel-blue: #19557F;
 $colonial-steel-blue-light: #ADC5D5;
 $colonial-slate: #5B7183;
 
 // unum styles
+$unum-dark-grey: #2E2E2E;
 $unum-blue: #015294;
 $unum-gold: #FAC832;
 $unum-sky: #0376bb;
-$unum-dark-grey: #2E2E2E;
 $unum-sand: #CCBD8F;
 $unum-sand-dark: #BEA97D; 
 
@@ -72,7 +72,7 @@ $block-grid-gutter: $global-gutter;
 // 4. Typography
 // -------------
 
-$global-font-color: $black;
+$global-font-color: $unum-dark-grey;
 $body-font-family: Helvetica, Arial, sans-serif;
 $global-font-weight: normal;
 $header-color: inherit;
