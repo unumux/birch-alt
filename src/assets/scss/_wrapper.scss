@@ -14,12 +14,15 @@
     padding-left: 27px;
     padding-right: 27px;
 }
-.birch-wrapper-padding-full .wrapper-inner{
+.birch-wrapper-padding-full .wrapper-inner{ 
     padding: 50px;
 }
 .birch-wrapper-padding-top-bottom .wrapper-inner{
     padding-top: 50px !important;
     padding-bottom: 50px !important;
+}
+.birch-wrapper-align-vertical-middle .wrapper-inner{ 
+    vertical-align: middle !important;
 }
 
 @media only screen and (max-width:616px) {
