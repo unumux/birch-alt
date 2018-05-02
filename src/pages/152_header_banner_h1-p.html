@@ -4,11 +4,14 @@ subject: HEADER/BANNER/H1-P
 ---
 
 <container>
-    <wrapper class="birch-wrapper-padding birch-util-background-color-unum-blue">
-        <spacer size="50"></spacer>
-        <h1 class="text-center birch-text-styles-h1 birch-util-color-white">Cras quis nulla commodo, aliquam lectus sed, blandit augue.</h1>
-        <p class="text-center birch-text-styles-p birch-util-color-white">Mauris non tempor quam, et lacinia sapien. Mauris accumsan eros eget lobero posuere vulputate.</p>
-        <spacer size="50"></spacer>
+    <wrapper class="birch-wrapper-padding birch-util-background-color-unum-blue birch-wrapper-align-vertical-middle">
+        <!-- need to manually set [vertical-align: middle; height: 193px; mso-height-rule: 193px;] to the 1st TR in the wrapper table -->
+        <row>
+            <columns valign="middle" style="padding-bottom:0!important;">
+                <h1 class="text-center birch-text-styles-h1 birch-util-color-white">Cras quis nulla commodo, aliquam lectus sed, blandit augue.</h1>
+                <p class="text-center birch-text-styles-p birch-util-color-white">Mauris non tempor quam, et lacinia sapien.</p>
+            </columns>
+        </row>
     </wrapper>
     <spacer size="7" class="birch-util-background-color-unum-sand-dark"></spacer>
 </container>
