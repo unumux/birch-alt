@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>2columns</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M18.125,0.25 L1.875,0.25 C0.839453125,0.25 0,1.08945313 0,2.125 L0,15.875 C0,16.9105469 0.839453125,17.75 1.875,17.75 L18.125,17.75 C19.1605469,17.75 20,16.9105469 20,15.875 L20,2.125 C20,1.08945312 19.1605469,0.25 18.125,0.25 Z M8.75,15.25 L2.5,15.25 L2.5,5.25 L8.75,5.25 L8.75,15.25 Z M17.5,15.25 L11.25,15.25 L11.25,5.25 L17.5,5.25 L17.5,15.25 Z" id="path-1"></path>
+    </defs>
+    <g id="2columns" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(5.000000, 6.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="columns" fill="#C0C0C0" fill-rule="nonzero" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

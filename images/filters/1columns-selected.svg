@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>icons/1columns-selected</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M23.125,6.25 L6.875,6.25 C5.83945313,6.25 5,7.08945313 5,8.125 L5,21.875 C5,22.9105469 5.83945313,23.75 6.875,23.75 L23.125,23.75 C24.1605469,23.75 25,22.9105469 25,21.875 L25,8.125 C25,7.08945312 24.1605469,6.25 23.125,6.25 Z M22.75,21.25 L7.5,21.25 L7.5,11.25 L22.75,11.25 L22.75,21.25 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Interface-main1" transform="translate(-311.000000, -706.000000)">
+            <g id="Components-tab" transform="translate(0.000000, 59.000000)">
+                <g id="Banners" transform="translate(0.000000, 582.000000)">
+                    <g id="filter" transform="translate(101.000000, 65.000000)">
+                        <g id="icons/1columns-selected" transform="translate(210.000000, 0.000000)">
+                            <rect id="Rectangle" fill="#C0C0C0" x="0" y="0" width="30" height="30" rx="4"></rect>
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="columns" fill="#343434" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
